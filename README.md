@@ -74,6 +74,7 @@ background-color: rgba(0, 225, 0, 0.8);
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="20190420_007.jpg" data-lightbox="abc"><img src="20190420_007.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190420_006.jpg" data-lightbox="abc"><img src="20190420_006.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190420_005.jpg" data-lightbox="abc"><img src="20190420_005.jpg" alt="サンプル画像" width="900" /></a>
 <a href="20190420_003.jpg" data-lightbox="abc"><img src="20190420_003.jpg" alt="サンプル画像" width="900" /></a>
