@@ -67,6 +67,7 @@ background-color: rgba(0, 225, 0, 0.8);
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
    
 </head>
+<body>
 <!--
 <body onload="alert('30期同期会会場「アルテアトロ」〜〜(^o^)/')" onunload="alert('再会の時まで、元気でお過ごしくださいませ〜(^o^)/')">
 -->
@@ -111,7 +112,26 @@ background-color: rgba(0, 225, 0, 0.8);
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 
 <br><br>
+<span id="viewTime"></span>
+<script type="text/javascript">
+    
+document.getElementById("viewTime").innerHTML = getNowTime();
 
+function getNowTime() {
+	var now = new Date();
+	var year = now.getFullYear();//年
+	var mon = now.getMonth()+1; //月 １を足す
+	var day = now.getDate();//日
+	var hour = now.getHours();//時間
+	var min = now.getMinutes();//分
+	var sec = now.getSeconds();//秒
+
+	//出力
+	var s = "アクセス：" + year + "年" + mon + "月" + day + "日" + hour + "時" + min + "分" + sec + "秒";
+	return s;
+}
+</script>
+</body>
 <!-- フッタ -->
  <footer>
  <span class="white">Copyright 2019/04/20 Pe-Young(S.Hada)</span>
