@@ -127,10 +127,13 @@ function getNowTime() {
 	var sec = now.getSeconds();//秒
 
 	//出力
+	<p>
 	var s = "アクセス：" + year + "年" + mon + "月" + day + "日" + hour + "時" + min + "分" + sec + "秒";
 	return s;
+	</p>
 }
 </script>
+<br>
 </body>
 <!-- フッタ -->
  <footer>
